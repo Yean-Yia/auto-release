@@ -1,0 +1,19 @@
+{
+  "name": "auto-release",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yean-Yia/auto-release.git"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yean-Yia/auto-release/issues"
+  },
+  "homepage": "https://github.com/Yean-Yia/auto-release#readme"
+}
