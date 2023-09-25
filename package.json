@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Yean-Yia/auto-release/issues"
   },
-  "homepage": "https://github.com/Yean-Yia/auto-release#readme"
+  "homepage": "https://github.com/Yean-Yia/auto-release#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "github:semantic-release/git",
+    "husky": "^8.0.0",
+    "semantic-release": "^22.0.5"
+  }
 }
